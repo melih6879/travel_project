@@ -1,0 +1,21 @@
+@import '../../constants.scss';
+
+.swiper-buttons {
+	display: flex;
+	justify-content: center;
+	// align-items: center;
+	gap: 1rem;
+	position: relative;
+	top: 1rem;
+
+	button {
+		cursor: pointer;
+		border: none;
+		border-radius: 50%;
+
+		img {
+			height: 100%;
+			width: 100%;
+		}
+	}
+}
